@@ -1,0 +1,23 @@
+Test:
+
+Napraviti klasu TestOOP.Video koja ima atribute za naziv, broj pregleda i broj lajkova.
+
+Napraviti klasu TestOOP.YouTubeKanal koji od atributa ima broj ljudi koji su pretplaceni tom kanalu i listu videa.
+Takodje ima metode:
+- najpopuarnijiVideo() - vraca video sa najvise pregleda
+- ukupnoSvidjanja() - vraca ukupan broj lajkova sa svih Videa
+- zarada() - vraca ukupnu zaradu kanala ako racunamo da zaradjuje 10 po lajku.
+
+Klasa TestOOP.Vevo nasledjuje klasu TestOOP.YouTubeKanal.
+
+Klasa TestOOP.BBPodcast nasledjuje klasu TestOOP.YouTubeKanal i oni dobijaju 15% bonus na svoju zaradu.
+
+Klasa TestOOP.GejmingKanal nasledjuje TestOOP.YouTubeKanal i zaradjuje 100 od videa koji imaju vise od 1000 pregleda.
+
+Klasa TestOOP.YouTube ima listu kanala i ima metode:
+- najprofitabilniji() - vraca TestOOP.YouTube kanal koji zaradjuje najvise para
+- izbaciKanal() - ukoliko neki gejming kanal ima manje od 100 pretplacenih korisnika na tom kanalu, izbaci
+ti ga.
+- search(String naziv) - za prosledjeni naziv vraca odredjeni kanal
+
+// (dodatni) - napraviti metodu koja sortira kanale po broju pretplatnika
